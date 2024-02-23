@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-    background-color: #ededed;
+    background-color: #09090993;
     padding: 16px 60px;
     
 `;
@@ -9,7 +9,7 @@ const HeaderContainer = styled.header`
 const Header = () => {
     return (
         <HeaderContainer>
-            <h1>LOGO</h1>
+            <img src="src/pages/TelaLogin/logo.png" alt="Logo do Museu da Imagem e Som de Fortaleza" />
         </HeaderContainer>
     );
 }
