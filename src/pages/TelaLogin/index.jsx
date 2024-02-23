@@ -11,7 +11,8 @@ overflow-x: hidden;
 
 const BackgroundImage = styled.div`
 display: flex;
-position: absolute;
+justify-content: center;
+align-items: center;
 width: 100%;
 height: 100%;
 background-size: cover;
@@ -24,38 +25,54 @@ position: absolute;
 top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);
-padding: 100px;
-background-color: rgba(255, 255, 255, 0.5);
-backdrop-filter: blur(10px);
+padding: 70px;
 border-radius: 10px;
 text-align: center;
+justify-content: center;
+height: 400px;
+width: 500px;
+background: rgba(38, 38, 38, 0.15);
+box-shadow: 0 8px 32px 0 rgba(42, 42, 42, 0.644);
+backdrop-filter: blur(8.5px);
+border-radius: 10px;
+color: #ffffff;
+text-transform: uppercase;
 `;
 
 const Title = styled.h2`
 font-size: 55px;
 margin-bottom: 20px;
+letter-spacing: 8px;
+font-family: "Raleway", sans-serif;
 `;
 
 const Input = styled.input`
 display: block;
 width: 100%;
-margin-bottom: 10px;
-padding: 8px;
+margin-bottom: 30px;
+padding: 15px;
 border-radius: 5px;
 border: 1px solid #ccc;
+outline: none;
 `;
 
 const Button = styled.button`
-width: 100%;
-padding: 10px;
+width: 50%;
+padding: 15px;
 border: none;
 border-radius: 5px;
-background-color: #007bff;
+background-color: #292929;
 color: #fff;
 cursor: pointer;
+transition: 0.8s;
+font-size: 15px;
+text-transform:uppercase;
+font-weight: bold;
+font-family: "Raleway", sans-serif;
 
 &:hover {
-background-color: #0056b3;
+    color: #000;
+    background-color: #ffffff;
 }
 `;
 
