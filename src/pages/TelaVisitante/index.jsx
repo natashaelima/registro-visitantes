@@ -66,9 +66,10 @@ const Input = styled.input`
 
 const Select = styled.select`
     width: 100%;
-    padding: 8px;
+    padding: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    outline: none;
 `;
 
 const Button = styled.button`
