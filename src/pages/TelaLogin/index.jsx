@@ -35,8 +35,7 @@ background: rgba(38, 38, 38, 0.15);
 box-shadow: 0 8px 32px 0 rgba(42, 42, 42, 0.644);
 backdrop-filter: blur(8.5px);
 border-radius: 10px;
-color: #ffffff;
-text-transform: uppercase;
+color: #000000;
 `;
 
 const Title = styled.h2`
