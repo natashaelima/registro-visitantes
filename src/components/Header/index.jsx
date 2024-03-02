@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 const HeaderContainer = styled.header`
-    background-color: #000000;
+    background-color: #00000030;
     padding: 16px 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
     
 `;
 

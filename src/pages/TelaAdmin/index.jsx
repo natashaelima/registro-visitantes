@@ -61,6 +61,7 @@ const TelaAdmin = () => {
         try {
             const request = await Api.get("visitantes/total-por-genero");
             const response = await request.data;
+
             const dataPie = {
                 labels: response.map(r => r.genero),
                 datasets: [

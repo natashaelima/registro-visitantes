@@ -6,7 +6,7 @@ const TelaVisitanteContainer = styled.div`
     position: relative;
     width: 100%;
     height: 100vh;
-    overflow-x: hidden;
+    overflow-y: hidden;
 `;
 
 const BackgroundImage = styled.div`
@@ -29,15 +29,14 @@ const Title = styled.h2`
 
 const Form = styled.form`
     position: absolute;
-    top: 50%;
+    top: 43%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 70px;
-    margin-top: 5px;
+    transform: translate(-50%, -35%);
+    padding: 15px;
     border-radius: 10px;
     justify-content: center;
-    height: 850px;
-    width: 500px;
+    height: 777px;
+    width: 495px;
     background: rgba(38, 38, 38, 0.15);
     box-shadow: 0 8px 32px 0 rgba(42, 42, 42, 0.644);
     backdrop-filter: blur(8.5px);
